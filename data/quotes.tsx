@@ -1,10 +1,14 @@
 const weightedQuotes = [
+  { w: 1, q: 'Can I speak to the manager?' },
+
   { w: 1, q: "I'm feeling fat, and sassy" },
+  { w: 1, q: 'I WAS EATING THOSE BEANS!' },
   { w: 1, q: 'My hovercraft is full of eels' },
   { w: 1, q: 'Negative, I am a meat popsicle' },
   { w: 1, q: 'One, two, five!' },
   { w: 1, q: "Shiny. Let's be bad guys." },
-  { w: 1, q: "Wow!" },
+  { w: 1, q: 'Wow!' },
+  { w: 1, q: "You know the sound that a fork makes in the garbage disposal? That's the sound that my brain makes ALL THE TIME!" },
 
   { w: 2, q: 'Your sights are on backwards' },
 

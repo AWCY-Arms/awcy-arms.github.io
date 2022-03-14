@@ -94,7 +94,7 @@ const Release = (props: ContentPageProps) => {
             </div>
             <div className="order-1 lg:order-2 flex flex-wrap items-center justify-around pt-8 sm:px-6 lg:flex-nowrap">
               <a target="_blank" href={`${links.media.odysee}/${props.data.odyseeId}`}
-                className="items-center px-5 text-center py-2 inline-flex whitespace-nowrap rounded-md bg-awcy-red-400 text-lg font-semibold uppercase text-white hover:bg-awcy-red-800"
+                className="items-center px-5 text-center py-2 inline-flex rounded-md bg-awcy-red-400 text-lg font-semibold uppercase text-white hover:bg-awcy-red-800"
               >
                 <img src="/icons/odysee.svg" className="mr-3 h-6 w-6" />
                 Download from Odysee
