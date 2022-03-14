@@ -3,7 +3,7 @@ import { quotes } from '../data/quotes'
 
 const Quote = () => {
   const [quote, setQuote] = useState('')
-  useEffect(() => setQuote(getRandomQuote()))
+  useEffect(() => setQuote(getRandomQuote()), [quote])
   return <span>{quote}</span>
 }
 

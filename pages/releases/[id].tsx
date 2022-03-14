@@ -41,6 +41,7 @@ const Release = (props: ContentPageProps) => {
             <div className="my-4 h-56 flex flex-col items-center max-h-96 w-auto overflow-hidden sm:h-72 lg:h-96">
               <img
                 src={props.data.images[mainPicture]}
+                alt=""
                 className="h-full object-contain rounded-2xl bg-gray-300"
               />
             </div>
@@ -57,7 +58,7 @@ const Release = (props: ContentPageProps) => {
                       className="block h-full overflow-hidden rounded"
                       onClick={() => setMainPicture(i)}
                     >
-                      <img src={filename} className="object-contain border-2 border-gray-500 rounded-md" />
+                      <img src={filename} alt="" className="object-contain border-2 border-gray-500 rounded-md" />
                     </button>
                   </li>
                 ))}
@@ -93,10 +94,10 @@ const Release = (props: ContentPageProps) => {
                 </ul> : <></>}
             </div>
             <div className="order-1 lg:order-2 flex flex-wrap items-center justify-around pt-8 sm:px-6 lg:flex-nowrap">
-              <a target="_blank" href={`${links.media.odysee}/${props.data.odyseeId}`}
+              <a target="_blank" rel="noreferrer" href={`${links.media.odysee}/${props.data.odyseeId}`}
                 className="items-center px-5 text-center py-2 inline-flex rounded-md bg-awcy-red-400 text-lg font-semibold uppercase text-white hover:bg-awcy-red-800"
               >
-                <img src="/icons/odysee.svg" className="mr-3 h-6 w-6" />
+                <img src="/icons/odysee.svg" alt="" className="mr-3 h-6 w-6" />
                 Download from Odysee
               </a>
             </div>

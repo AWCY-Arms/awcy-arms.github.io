@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import taglines from '../data/taglines'
 
 const RT = () => {
-  const [quote, setQuote] = useState(taglines[0])
-  useEffect(() => setQuote(getRandomTag()))
+  const [quote, setQuote] = useState('')
+  useEffect(() => setQuote(getRandomTag()), [quote])
   return <span className="text-awcy-red-400">{quote}</span>
 }
 

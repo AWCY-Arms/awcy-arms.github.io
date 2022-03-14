@@ -6,7 +6,7 @@ const Footer = () => {
   return <footer className="bg-awcy-red-400 dark:bg-awcy-red-800 w-full pt-8">
     <div className="container px-5 py-8 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
       <div className="flex-shrink-0 md:mx-0 mx-auto text-center md:text-left w-48">
-        <img className="mb-8 w-60 max-h-40" src="/awcy_crossends_hwite.svg"></img>
+        <img className="mb-8 w-60 max-h-40" src="/awcy_crossends_hwite.svg" alt="AWCY? Crossends"></img>
         <p className="text-base text-gray-200">Art is NOT meant to be contained</p>
       </div>
       <div className="flex-grow flex flex-wrap md:pl-20 lg:pl-30 -mb-10 md:mt-0 mt-10 md:text-left">
